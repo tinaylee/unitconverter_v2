@@ -16,7 +16,7 @@ html, body {
     background-color: #F4F4F4;
 }
 
-h1, h3 {
+h1, h3, p {
    font-family: Inter;
    font-style: normal;
    text-align: center;
@@ -25,7 +25,6 @@ h1, h3 {
 #heading {
     display: grid;
     box-sizing: border-box;
-    border: 2px solid greenyellow;
     width: 550px;
     height: 285px;
     background: #6943FF;
@@ -33,10 +32,7 @@ h1, h3 {
 }
 
 #title {
-    /* margin: 33px, 50px, 0px, 50px; */
-    font-family: Inter;
     font-style: normal;
-    text-align: center;
     margin-bottom: 0px;
 }
 
@@ -51,6 +47,9 @@ input {
 }
 
 #convert-button {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
     color:#3D3D3D;
     width: 117px;
     height: 42px;
@@ -118,4 +117,5 @@ input {
    color: #4E4E4E;
    margin-top: 5px;
    font-size: 14px;
+
 }
